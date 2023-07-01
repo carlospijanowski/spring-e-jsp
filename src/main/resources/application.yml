@@ -1,0 +1,11 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://ec2-44-213-151-75.compute-1.amazonaws.com:5432/da27kq8remub22
+    username: kpeeblcrjkceqg
+    password: 300084f121abedfb152dd8ecfd4b7f6375d85296fabeb59fd382e0c57fd74ee6
+
