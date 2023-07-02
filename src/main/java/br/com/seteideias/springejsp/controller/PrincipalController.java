@@ -23,8 +23,9 @@ public class PrincipalController {
                                     String veioParam, Model model) {
             model.addAttribute("name", nomeViaParam);
         List<Tabela> all = repository.findAll();
-        long count = all.stream().count();
+        long count = all.size();
         model.addAttribute("quantidadeDeRegistros", count);
+        System.out.println("");
         return "index";
     }
 
