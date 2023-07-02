@@ -27,6 +27,7 @@ public class PrincipalController {
         model.addAttribute("quantidadeDeRegistros", count);
         System.out.println("alteracao na master");
         return "index";
+
     }
 
     @PostMapping("/post")
