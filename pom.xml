@@ -31,6 +31,7 @@
             <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
+            <!-->dependencia necessaria para esse projeto para poder trabalhar com páginas JSP<-->
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
         </dependency>
@@ -43,12 +44,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.11.0</version>
-        </dependency>
-
     </dependencies>
     <build>
         <plugins>
