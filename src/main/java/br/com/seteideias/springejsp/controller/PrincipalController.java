@@ -25,6 +25,7 @@ public class PrincipalController {
         List<Tabela> all = repository.findAll();
         long count = all.stream().count();
         model.addAttribute("quantidadeDeRegistros", count);
+        System.out.println("feito na branch estudos");
         return "index";
     }
 
