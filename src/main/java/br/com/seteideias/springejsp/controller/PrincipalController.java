@@ -25,7 +25,7 @@ public class PrincipalController {
         List<Tabela> all = repository.findAll();
         long count = all.size();
         model.addAttribute("quantidadeDeRegistros", count);
-        System.out.println("");
+        System.out.println("alteracao na master");
         return "index";
     }
 
